@@ -1,0 +1,12 @@
+version:"1"
+rules:
+-base:main# 你的分支 🏠
+upstream:xmbjm:main# 上游坐标 🎯（作者:分支）
+mergeMethod:squash# 合并姿势 🧘
+# merge = 保留历史（适合协作）
+# squash = 压成一条（适合洁癖）
+# rebase = 线性历史（适合强迫症）
+assignees:# 自动@谁来看 👀
+-your-github-id
+reviewers:# 自动请求谁审核 🔍
+-your-friend-id
